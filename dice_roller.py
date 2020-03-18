@@ -7,6 +7,9 @@ def main():
     roll = random.randint(1,6)
     print('You rolled a %i' % roll)
     dice_sum += roll
+    
+    if roll == 1:
+      print("You rolled a 1!")
 
   print('You have rolled a total of %i' % dice_sum)
 
